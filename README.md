@@ -42,5 +42,6 @@ terraform {
 * [CloudBees AWS Credentials Plugin](https://wiki.jenkins.io/display/JENKINS/CloudBees+AWS+Credentials+Plugin)
 
 ## Questions?
+While creating jenkins job ,need to specify to scan all the branches .
 
 Open an issue.
