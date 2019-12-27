@@ -1,7 +1,7 @@
 # Terraform state will be stored in S3
 terraform {
   backend "s3" {
-    bucket = "mura-test"
+    bucket = "test-mura"
     key    = "terraform_mura.tfstate"
     region = "us-east-1"
   }
