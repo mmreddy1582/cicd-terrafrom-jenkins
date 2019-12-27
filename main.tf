@@ -43,5 +43,4 @@ resource "aws_security_group" "default" {
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
-
 }
