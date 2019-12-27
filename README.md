@@ -1,4 +1,4 @@
-# gitops-terraform-jenkins
+# mura cicd-terraform-jenkins
 
 ## Overview
 
@@ -8,7 +8,7 @@ The configuration in this repository was run using `Terraform v0.11.13`.
 
 Video can be found here:
 
-https://youtu.be/qFjGqPw1NUY
+####https://youtu.be/qFjGqPw1NUY
 
 ## Requirements
 
