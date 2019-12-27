@@ -1,7 +1,7 @@
 # Terraform state will be stored in S3
 terraform {
   backend "s3" {
-    bucket = "mura-test"
+    bucket = "test-mura"
     key    = "terraform_mura.tfstate"
     region = "us-east-1"
   }
@@ -33,13 +33,6 @@ resource "aws_security_group" "default" {
   ingress {
     from_port   = 80
     to_port     = 80
-    protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
-
-  ingress {
-    from_port   = 22
-    to_port     = 22
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
